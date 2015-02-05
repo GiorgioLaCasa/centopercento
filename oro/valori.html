@@ -1,0 +1,55 @@
+<html>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.form.js"></script> 
+<script>
+	
+	   $(document).ready(function() { 
+			
+			$.ajax({
+				  url: '/oro/valori.json',
+				  dataType: 'json',
+				  success: function(data) {
+				  	$('#cifra_1').val(data['oro1']);
+					$('#cifra_2').val(data['oro2']);
+					$('#cifra_3').val(data['oro3']);
+
+					$('#cifra_5').val(data['arg1']);
+					$('#cifra_6').val(data['arg2']);
+					
+				  }
+			});
+
+			var options = { 
+			    success:    function(data) {
+			    	alert('dati aggiornati');
+			    } 
+			}; 
+            $('#myForm').ajaxForm(options); 
+  });
+</script>
+<body>
+	
+<form id="myForm" action="valori.php" >
+	
+	
+<h1> VALORI ORO </h1>
+
+
+borse internazionali <input type="text" name="oro1" id="cifra_1" /><br/>
+oro 18K <input type="text" id="cifra_2" name="oro2"/><br/>
+oro 24K <input type="text" id="cifra_3"  name="oro3"/><br/>
+Quarto box (spento)<input type="text" name="oro4" /><br/>
+
+
+<h1> VALORI ARGENTO </h1>
+
+borse internazionali  <input type="text" id="cifra_5" name="arg1" /><br/>
+argento usato <input type="text" id="cifra_6" name="arg2"/><br/>
+
+<input type="submit" value="salva dati" />
+</form>
+</body>
+
+</html>

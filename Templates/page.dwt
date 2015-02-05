@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/cash.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>100% Cash</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" media="all" href="http://www.pingendo.com/giulio/960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="main.css" />
+<!-- InstanceBeginEditable name="head" -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- InstanceEndEditable -->
+</head> 
+ 
+<body class="nomargin" style="color: white; font-size: 14px;">
+<div id="row" class="row" style="background-color: rgb(23, 30, 51); background-image: url(&quot;http://dl.dropbox.com/u/57394419/cash/gradient_menu.png&quot;);">
+  <div id="container" class="container_16"> <img src="http://dl.dropbox.com/u/57394419/cash/Logo_statico.gif" /> </div>
+  <div id="container" class="container_16" style="text-align: center;">
+    <div style="line-height: 35px; font-size: 22px; width: 697px; display: inline; letter-spacing: 0.15em;">Compriamo il tuo oro alle massime quotazioni di mercato in tempo reale.</div>
+    <ul class="menu" style="width: 520px; display: block; padding-top: 13px; margin-left: auto; margin-right: auto;">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="chisiamo.html">Chi siamo</a></li>
+      <li><a href="quotazioni.html">Quotazioni</a></li>
+      <li><a href="dovesiamo.html">Dove siamo</a></li>
+      <li style="border-style: solid; border-color: rgb(130, 130, 130); border-right: 1px solid rgb(130, 130, 130);"><a href="contatti.html">Contatti</a></li>
+    </ul> 
+  </div>
+</div>
+
+<div id="row2" class="row" style="background-color: rgb(17, 21, 37); border-style: solid; border-color: rgb(130, 130, 130); border-width: 1px 0px; height:130px"><!-- InstanceBeginEditable name="content" --> 
+  <div class="container_16" style="text-align: left; padding-top: 45px;"> <img style="float: right; position: absolute; top: 255px; left: 976.5px;" src="http://dl.dropbox.com/u/57394419/cash/Omino_pag.png" />  
+    <div class="title" style="display: inline; font-size: 30px; color: rgb(255, 166, 0);"><!-- TemplateBeginEditable name="EditRegion3" -->Chi siamo<!-- TemplateEndEditable --><br />
+    </div>
+    <div class="" style="display: inline;"><!-- TemplateBeginEditable name="EditRegion4" -->Home &gt; Chi siamo<!-- TemplateEndEditable --><br /> 
+    </div>
+  </div>
+  <!-- InstanceEndEditable -->
+</div>
+<!-- InstanceBeginEditable name="additional" -->
+<div id="row3" class="row" style="background-color: rgb(20, 26, 58); padding-top: 15px;padding-bottom: 15px">
+  <div style="display: block; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-align: left; padding: 20px; width: 920px; line-height: 1.5em;" class="container_16"><!-- TemplateBeginEditable name="pagetext" -->
+  
+  
+  <!-- TemplateEndEditable -->
+  
+  </div>
+</div>
+<!-- InstanceEndEditable -->
+
+
+<div id="row4" class="row" style="background-color: rgb(48, 65, 96); border-style: solid; border-color: white; border-width: 0px 0px 1px; text-align: center; margin-left: auto; margin-right: auto; padding-top: 20px; padding-bottom: 20px;"><br />
+  2012 (c) 100% Cash - PIVA<br />
+  <br />
+</div>
+<div id="row4"></div>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>100% Cash</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" media="all" href="http://www.pingendo.com/giulio/960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="main.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head> 
+ 
+<body class="nomargin" style="color: white; font-size: 14px;">
+<div id="row" class="row" style="background-color: rgb(23, 30, 51); background-image: url(&quot;http://dl.dropbox.com/u/57394419/cash/gradient_menu.png&quot;);">
+  <div id="container" class="container_16"> <img src="http://dl.dropbox.com/u/57394419/cash/Logo_statico.gif" /> </div>
+  <div id="container" class="container_16" style="text-align: center;">
+    <div style="line-height: 35px; font-size: 22px; width: 697px; display: inline; letter-spacing: 0.15em;">Compriamo il tuo oro alle massime quotazioni di mercato in tempo reale.</div>
+    <ul class="menu" style="width: 520px; display: block; padding-top: 13px; margin-left: auto; margin-right: auto;">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="chisiamo.html">Chi siamo</a></li>
+      <li><a href="quotazioni.html">Quotazioni</a></li>
+      <li><a href="dovesiamo.html">Dove siamo</a></li>
+      <li style="border-style: solid; border-color: rgb(130, 130, 130); border-right: 1px solid rgb(130, 130, 130);"><a href="contatti.html">Contatti</a></li>
+    </ul> 
+  </div>
+</div>
+
+<div id="row2" class="row" style="background-color: rgb(17, 21, 37); border-style: solid; border-color: rgb(130, 130, 130); border-width: 1px 0px; height:130px"><!-- TemplateBeginEditable name="content" --><!-- TemplateEndEditable -->
+</div>
+<!-- TemplateBeginEditable name="additional" --><!-- TemplateEndEditable -->
+
+
+<div id="row4" class="row" style="background-color: rgb(48, 65, 96); border-style: solid; border-color: white; border-width: 0px 0px 1px; text-align: center; margin-left: auto; margin-right: auto; padding-top: 20px; padding-bottom: 20px;"><br />
+  2012 (c) 100% Cash - PIVA<br />
+  <br />
+</div>
+<div id="row4"></div>
+</body>
+</html>

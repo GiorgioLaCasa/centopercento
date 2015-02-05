@@ -8,9 +8,9 @@
 	   $(document).ready(function() { 
 
 			$.getJSON( 'http://www.lacasadiriposo.it/oro/getValori.php' , function( data ) {
+				console.log("ZI");
+				console.log(data['oro1']);
 
-				console.log(data);
-				
 			  	$('#cifra_1').val(data['oro1']);
 				$('#cifra_2').val(data['oro2']);
 				$('#cifra_3').val(data['oro3']);

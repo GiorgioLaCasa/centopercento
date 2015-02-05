@@ -8,7 +8,7 @@
 	   $(document).ready(function() { 
 			
 			$.ajax({
-				  url: '/oro/valori.json',
+				  url: 'http://www.lacasadiriposo.it/oro/valori.json',
 				  dataType: 'json',
 				  success: function(data) {
 				  	$('#cifra_1').val(data['oro1']);

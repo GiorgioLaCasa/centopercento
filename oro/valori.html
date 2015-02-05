@@ -6,19 +6,14 @@
 <script>
 	
 	   $(document).ready(function() { 
-			
-			$.ajax({
-				  url: 'http://www.lacasadiriposo.it/oro/valori.json',
-				  dataType: 'json',
-				  success: function(data) {
-				  	$('#cifra_1').val(data['oro1']);
-					$('#cifra_2').val(data['oro2']);
-					$('#cifra_3').val(data['oro3']);
 
-					$('#cifra_5').val(data['arg1']);
-					$('#cifra_6').val(data['arg2']);
-					
-				  }
+			$.getJSON( 'http://www.lacasadiriposo.it/oro/valori.json' , function( data ) {
+			  	$('#cifra_1').val(data['oro1']);
+				$('#cifra_2').val(data['oro2']);
+				$('#cifra_3').val(data['oro3']);
+
+				$('#cifra_5').val(data['arg1']);
+				$('#cifra_6').val(data['arg2']);
 			});
 
 			var options = { 

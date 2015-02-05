@@ -7,7 +7,7 @@
 	
 	   $(document).ready(function() { 
 
-			$.getJSON( 'http://www.lacasadiriposo.it/oro/valori.json' , function( data ) {
+			$.getJSON( 'http://www.lacasadiriposo.it/oro/valori.php' , function( data ) {
 			  	$('#cifra_1').val(data['oro1']);
 				$('#cifra_2').val(data['oro2']);
 				$('#cifra_3').val(data['oro3']);

@@ -1,6 +1,6 @@
 function reloadValori(){
 		$.ajax({
-					  url: 'http://www.lacasadiriposo.it/oro/getValori.php',
+					  url: 'https://gestionale.lacasadiriposo.it/oro/getValori.php',
 					  dataType: 'json',
 					  cache: false,
 					  success: function(dataZ) {

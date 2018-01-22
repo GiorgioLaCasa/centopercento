@@ -35,8 +35,6 @@ $(document).ready(function() {
 var ver = getInternetExplorerVersion();
 if ( ver > -1 && ver < 9.0)
 {
-
-
 	$.ajax({
 			  url: '/oro/valori.json',
 			  dataType: 'json',
@@ -62,16 +60,34 @@ if ( ver > -1 && ver < 9.0)
 else
 {
 
-document.getElementById('video').addEventListener("ended", function() {
+
+setTimeout(function(){ 
+
+   $("#step0").hide();
+   $("#video").show();
+
+   document.getElementById('video').play();
+   document.getElementById('video').addEventListener("ended", function() {
         step4();
     }, true);
+
+}, 10000);
+
+
 
     function step1(){
         $("#step4").hide();
         $("#step2").hide();
-        $("#video").show();
         //document.getElementById('video').currentTime = 0;
-        document.getElementById('video').play();
+      	$("#video").hide();
+      	$("#step0").show();
+        
+        setTimeout(function(){ 
+
+		   $("#step0").hide();
+		   $("#video").show();
+		   document.getElementById('video').play();
+		}, 10000);
     }   
       
 		
@@ -80,7 +96,7 @@ document.getElementById('video').addEventListener("ended", function() {
       function step2(){
 	 
       		$.ajax({
-			  url: '/oro/valori.json',
+			  url: 'oro/valori.json',
 			  dataType: 'json',
 			  success: function(data) {
 			  	
@@ -97,9 +113,10 @@ document.getElementById('video').addEventListener("ended", function() {
 				
 				
 				setTimeout(step1,5000);
+				
 			  }
 			});
-      		//player.playVideo();
+
       }
       /*
       function step3(){
@@ -121,6 +138,8 @@ document.getElementById('video').addEventListener("ended", function() {
       function step4(){
       		$("#video").hide();
       		$("#step4").show();
+
+
 			setTimeout(step2,3000);
       }
 
